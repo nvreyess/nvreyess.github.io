@@ -1,0 +1,401 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	color: grey;
+	padding: ;
+	font-family: bebas neue;
+	text-align: right;
+
+}
+
+header a{
+	margin: 0px 20px;
+	text-decoration: none;
+	color: darkgray;
+}
+
+header a:hover{
+	color: #F2A7A7;
+
+}
+
+footer{
+	color:black;
+	padding: px 50px;
+	font-family: serif;
+	background-color: white;
+	text-align:center;
+
+}
+
+section{
+	padding: 60px 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+h5{
+	color: black;
+	font-size: 25px;
+	font-family: bebas neue;
+	padding-bottom: 10px;
+
+}
+
+img{
+	max-width: 100%;
+}
+
+.nav-items{
+	display: flex;
+	justify-content: space-between;
+	font-family: bebas neue;
+	align-items: center;
+}
+
+.fa-bars{
+	font-size: 30px;
+}
+
+.hamburger{
+	display: none;
+}
+
+.logo{
+	width: 150px;
+	margin-left: 50px;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	border: ;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.nav{
+	border: ;
+	margin-right: 50px;
+	text-align: center;
+
+}
+
+.banner1{
+	background-image: url(Graffiti.jpg);
+	background-position: center;
+	background-size: cover;
+	font-family: bebas neue;
+	height: 950px;
+	margin: auto;
+	margin-left: auto;
+}
+
+.places{
+	font-family: ;
+	font-size: 35px;
+	text-align: center;
+	color: lightgray;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 0px black;
+}
+
+.banner2{
+	background-color: white;
+	border: ;
+}
+
+.items-container{
+	max-width: 800px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: ;
+	text-align: center;
+}
+
+.items-parent{
+	grid-gap: 30px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border: ;
+}
+
+.items-parent p{
+	font-family: roboto;
+	font-size: 25px;
+	text-align: left;
+	color: black;
+	padding-bottom: 10px;	
+}
+
+.right{
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5px;
+	display: grid;
+	border: ;
+}
+
+.left{
+       border: ;
+       width: 200px;
+       
+}
+.left h2{
+
+       font-size: 35px;
+       font-family: bebas neue;
+       padding: 10px;
+   }
+.left p{
+	font-family: roboto;
+	font-size: 20px;
+}
+
+.box{
+	border: ;
+	width: 200px;
+}
+
+
+.banner3{
+	background-color: #D5E34D;
+	background-image: url();
+	background-position: center;
+	padding: 20px 20px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 25px;
+
+}
+.discounts{
+	font-family: bebas neue;
+	font-size: 15px;
+	text-align: center;
+	color: black;
+}
+.discounts p{
+	padding-bottom: 10px;
+}
+
+.white-btn{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: inline-block;
+	text-transform: ;
+	border-radius: px;
+	font-size: 15px;
+}
+
+.white-btn a:hover{
+	color: #F2A7A7;
+}
+
+.grey-btn{
+	background-color: lightgray;
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: inline-block;
+	text-transform: ;
+	font-size: 25px;
+	font-family: bebas neue;
+}
+
+.about{
+	max-width: 800px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	grid-gap: 20px;
+	display: flex;
+}
+
+
+.right-text {
+       font-size: 25px;
+	font-family: bebas neue;
+	text-align: right;
+	border: 5px solid lightgray;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+.right-text p{
+	font-size: 15px;
+	font-family: roboto;
+	text-align: center;
+}
+
+.left-pic{
+	width: 5000px;
+}
+
+h3{
+	font-family: bebas neue;
+	font-size: 25px;
+	color: ;
+}
+
+
+.banner5{
+	background-image: url(panelling1.webp);
+	padding: 100px 100px;
+	border: ;
+}
+
+.prints{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	border: ;
+}
+
+
+.title{
+	padding-bottom: 50px;
+
+}
+
+.title h3{
+	color: #18051B;
+	font-size: 35px;
+	text-align: center;
+	color: lightgray;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 0px black;
+	
+}
+
+.banner6{
+	background-color: #F27EA1;
+	background-image: url();
+	background-position: center;
+	padding: 20px 20px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 25px;
+
+}
+
+.account{
+	padding-bottom: 25px;
+}
+
+footer{
+	padding: 35px 45px;
+}
+
+footer a{
+	text-decoration: none;
+	color: darkgray;
+}
+
+footer a:hover{
+	color: #D5E34D;
+
+}
+
+.discounts p{
+	padding-bottom: 10px;
+}
+
+.nav-items{
+	padding: 10px 0px;
+}
+
+.nav-items ul{
+	list-style: none;
+	color: darkgray;
+}
+
+.nav-items li{
+	padding-bottom: 10px;
+}
+
+.locations ul{
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+
+.locations i{
+	margin-left: 15px;
+
+}
+
+/*changes for iphone view*/
+
+@media only screen and (max-width: 750px){
+	.items-parent{
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.hamburger{
+		display: block;
+		padding-right: 30px;
+	}
+
+	.nav{
+		display: none;
+	}
+
+	h1{
+		font-size: 35px;
+	}
+
+	h2{
+		font-size: 15px;
+	}
+
+	.banner1 p{
+		font-size: 25px;
+	}
+
+	.discounts p{
+		font-size: 10px;
+	}
+
+	.banner1{
+		padding-top: 100px;
+	}
+
+	header a{
+		font-size: 10px 0;
+	}
+
+	h5{
+		font-size: 15px;
+	}
+
+	li{
+		font-size: 10px;
+
+	}
+
+	.locations{
+		padding-left: 10px;
+	}
+
+	.last{
+		padding-bottom: 10px;
+	}
+
+	.nav-items{
+		gap: 20px;
+	}
+
+
+}
+
+
+
+
